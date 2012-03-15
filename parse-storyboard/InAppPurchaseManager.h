@@ -2,7 +2,7 @@
 //!  InAppPurchaseManager.h
 //!  In-App Purchase singleton, manager of purchase and recording of subscriptions
 //
-//  Created by d. nye on 3/5/10.
+//  Created by Mobile Flow, LLC on 3/5/10.
 //  Copyright 2010 Mobile Flow LLC. All rights reserved.
 //
 
