@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		9197820915119BBB00B6AA99 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 9197820815119BBB00B6AA99 /* README */; };
 		9197820C1511A87600B6AA99 /* LICENSE-MIT in Resources */ = {isa = PBXBuildFile; fileRef = 9197820B1511A87600B6AA99 /* LICENSE-MIT */; };
+		9197820E1511B00600B6AA99 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 9197820D1511B00600B6AA99 /* README.md */; };
 		9198D9C41511725300C1A655 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9198D9C31511725300C1A655 /* UIKit.framework */; };
 		9198D9C61511725300C1A655 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9198D9C51511725300C1A655 /* Foundation.framework */; };
 		9198D9C81511725300C1A655 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9198D9C71511725300C1A655 /* CoreGraphics.framework */; };
@@ -57,6 +58,7 @@
 /* Begin PBXFileReference section */
 		9197820815119BBB00B6AA99 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = SOURCE_ROOT; };
 		9197820B1511A87600B6AA99 /* LICENSE-MIT */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "LICENSE-MIT"; sourceTree = SOURCE_ROOT; };
+		9197820D1511B00600B6AA99 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		9198D9BF1511725300C1A655 /* parse-storyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "parse-storyboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9198D9C31511725300C1A655 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9198D9C51511725300C1A655 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -152,6 +154,7 @@
 			isa = PBXGroup;
 			children = (
 				9197820815119BBB00B6AA99 /* README */,
+				9197820D1511B00600B6AA99 /* README.md */,
 				9197820B1511A87600B6AA99 /* LICENSE-MIT */,
 				9198D9C91511725300C1A655 /* parse-storyboard */,
 				9198D9C21511725300C1A655 /* Frameworks */,
@@ -322,6 +325,7 @@
 				91F1202C1511762800DF2CDC /* User_Icon@2x.png in Resources */,
 				9197820915119BBB00B6AA99 /* README in Resources */,
 				9197820C1511A87600B6AA99 /* LICENSE-MIT in Resources */,
+				9197820E1511B00600B6AA99 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
