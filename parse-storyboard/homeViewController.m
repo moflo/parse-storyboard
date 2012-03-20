@@ -46,7 +46,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     
-    self.selectedDesignName = @"love";
+    self.selectedDesignName = @"frame1";
 
     [nextButton.layer setCornerRadius:8.0f];
     [nextButton.layer setMasksToBounds:YES];

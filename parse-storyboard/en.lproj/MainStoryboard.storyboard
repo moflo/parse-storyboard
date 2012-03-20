@@ -10,19 +10,19 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dBO-9W-a33" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="EfO-en-ehE" customClass="homeViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pBH-q1-jI2">
-                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="horizontal_rule.png" id="KRd-sj-WsR">
-                                <rect key="frame" x="0.0" y="100" width="320" height="64"/>
+                                <rect key="frame" x="0.0" y="100" width="320" height="20"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="horizontal_rule.png" id="6ZY-sD-BuB">
-                                <rect key="frame" x="0.0" y="219" width="320" height="64"/>
+                                <rect key="frame" x="0.0" y="219" width="320" height="20"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="horizontal_rule.png" id="w6c-AA-PR3">
-                                <rect key="frame" x="0.0" y="338" width="320" height="64"/>
+                                <rect key="frame" x="0.0" y="338" width="320" height="20"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                             <view alpha="0.75" contentMode="scaleToFill" id="2re-ui-ge7">
@@ -31,7 +31,7 @@
                                 <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                             </view>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" id="087-Sb-ldm">
-                                <rect key="frame" x="0.0" y="44" width="320" height="370"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="370"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" id="aKy-rR-4Td">
@@ -116,7 +116,7 @@
                         <outlet property="shadowView" destination="2re-ui-ge7" id="Mtk-vO-tQt"/>
                         <segue destination="rQq-UA-Ud4" kind="push" identifier="accountSegue" id="Zai-gk-vmn"/>
                         <segue destination="aI4-ee-dxW" kind="push" identifier="createSegue" id="osZ-xK-t5v"/>
-                        <segue destination="yGB-Hv-ulB" kind="push" identifier="statusSegue" id="SIh-cn-zYW"/>
+                        <segue destination="yGB-Hv-ulB" kind="push" identifier="statusSegue" id="nc3-Ba-OrC"/>
                     </connections>
                 </viewController>
             </objects>
@@ -127,11 +127,11 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eva-s0-Ag9" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="JBe-BZ-7Ne" customClass="signupViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ett-vz-8Cs">
-                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="horizontal_rule.png" id="499-4b-NcH">
-                                <rect key="frame" x="-1" y="67" width="320" height="44"/>
+                                <rect key="frame" x="-1" y="67" width="320" height="0.0"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Signup" textAlignment="center" lineBreakMode="tailTruncation" adjustsFontSizeToFit="NO" minimumFontSize="10" id="pfG-NQ-P9G">
@@ -193,7 +193,7 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="horizontal_rule.png" id="F5M-m8-XV7">
-                                <rect key="frame" x="1" y="44" width="320" height="64"/>
+                                <rect key="frame" x="1" y="44" width="320" height="20"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                             <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" animating="YES" style="whiteLarge" id="9xz-Ob-KqP">
@@ -224,7 +224,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="a8Z-F5-caQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="WBn-XW-uvB" customClass="restoreViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Cvx-Th-voj">
-                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Reset Password" textAlignment="center" lineBreakMode="tailTruncation" adjustsFontSizeToFit="NO" minimumFontSize="10" id="NkY-bd-G1l">
@@ -259,7 +259,7 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="horizontal_rule.png" id="5Uz-nN-kBW">
-                                <rect key="frame" x="0.0" y="48" width="320" height="64"/>
+                                <rect key="frame" x="0.0" y="48" width="320" height="20"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                         </subviews>
@@ -279,11 +279,11 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YH1-NT-tbD" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="aI4-ee-dxW" customClass="createViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="MOX-FN-Vg8">
-                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" id="UvU-hw-zFJ">
-                                <rect key="frame" x="0.0" y="44" width="320" height="371"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="371"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" id="Cpm-8b-rFh">
@@ -437,7 +437,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ye0-oJ-k8f" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="vdz-tE-czF" customClass="previewViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ACW-qX-fAa">
-                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" id="fSR-IC-cbx">
@@ -841,7 +841,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="H00-cC-hPL" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="yGB-Hv-ulB" customClass="statusViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tL4-LH-clV">
-                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Balance" textAlignment="center" lineBreakMode="tailTruncation" adjustsFontSizeToFit="NO" minimumFontSize="10" id="ULX-SN-EKo">
@@ -852,15 +852,15 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="horizontal_rule.png" id="JUb-AN-7Jc">
-                                <rect key="frame" x="0.0" y="52" width="320" height="64"/>
+                                <rect key="frame" x="0.0" y="52" width="320" height="20"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="horizontal_rule.png" id="WuT-1x-F7I">
-                                <rect key="frame" x="0.0" y="220" width="320" height="64"/>
+                                <rect key="frame" x="0.0" y="220" width="320" height="20"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="singleLineEtched" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="gvm-qx-bcb">
-                                <rect key="frame" x="0.0" y="248" width="320" height="195"/>
+                                <rect key="frame" x="0.0" y="248" width="320" height="151"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <prototypes>
@@ -943,7 +943,6 @@
                     </navigationItem>
                     <connections>
                         <outlet property="activityIndicator" destination="CB7-66-dUS" id="7tt-IC-faD"/>
-                        <outlet property="cardsRemainingText" destination="IqV-7l-zIS" id="4M3-0D-0gC"/>
                         <outlet property="purchaseButton" destination="Uzo-6G-BQy" id="mmM-vj-6Xv"/>
                         <outlet property="table" destination="gvm-qx-bcb" id="Ets-9i-FH7"/>
                         <outlet property="vidsRemainingText" destination="IqV-7l-zIS" id="Qea-0W-DXz"/>
@@ -958,7 +957,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rHc-47-TnA" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="t90-89-Z0c" customClass="storeViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="yZt-5w-3gO">
-                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" animating="YES" style="gray" id="SJ8-pk-2od">
@@ -967,7 +966,7 @@
                                 <color key="color" cocoaTouchSystemColor="darkTextColor"/>
                             </activityIndicatorView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="horizontal_rule.png" id="Oqp-mE-ZUc">
-                                <rect key="frame" x="0.0" y="53" width="320" height="44"/>
+                                <rect key="frame" x="0.0" y="53" width="320" height="0.0"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="yFZ-hl-A8f">
@@ -1031,7 +1030,7 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="horizontal_rule.png" id="tca-j0-R1u">
-                                <rect key="frame" x="-1" y="53" width="320" height="64"/>
+                                <rect key="frame" x="-1" y="53" width="320" height="20"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Purchase" textAlignment="center" lineBreakMode="tailTruncation" adjustsFontSizeToFit="NO" minimumFontSize="10" id="sMJ-3z-aWL">
@@ -1060,7 +1059,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bud-RA-9ea" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController title="Confirm" id="LZW-Nw-Pu2" customClass="confirmViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ozT-MZ-T0I">
-                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Create Video Message?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" minimumFontSize="10" id="KG6-fr-Wel">
@@ -1145,22 +1144,22 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="vdz-tE-czF" kind="relationship" relationship="rootViewController" id="TO1-gt-jeH"/>
+                        <segue destination="EfO-en-ehE" kind="relationship" relationship="rootViewController" id="hFl-3y-eH9"/>
                     </connections>
                 </navigationController>
             </objects>
-            <point key="canvasLocation" x="1588" y="-856"/>
+            <point key="canvasLocation" x="83" y="-72"/>
         </scene>
         <scene sceneID="K9Q-ZE-Fq8">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="V8A-h2-xlS" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="rQq-UA-Ud4" customClass="accountViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="HHJ-Mq-LJE">
-                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="horizontal_rule.png" id="UTk-dD-ikj">
-                                <rect key="frame" x="1" y="46" width="320" height="64"/>
+                                <rect key="frame" x="1" y="46" width="320" height="20"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Login" textAlignment="center" lineBreakMode="tailTruncation" adjustsFontSizeToFit="NO" minimumFontSize="10" id="MoP-PI-to6">
@@ -1254,24 +1253,170 @@
         </scene>
     </scenes>
     <resources>
-        <image name="button_account.png" width="28" height="28"/>
+        <image name="button_account.png" width="29" height="29"/>
         <image name="button_upload_video.png" width="200" height="241"/>
         <image name="horizontal_rule.png" width="382" height="22"/>
-        <image name="icon_design1.png" width="106" height="131"/>
-        <image name="icon_swipe.png" width="91" height="138"/>
+        <image name="icon_design1.png" width="400" height="600"/>
+        <image name="icon_swipe.png" width="138" height="156"/>
         <image name="image_balance.png" width="146" height="69"/>
         <image name="image_share_background.png" width="795" height="228"/>
     </resources>
+    <classes>
+        <class className="accountViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/accountViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="doLoginButton:"/>
+                <relationship kind="outlet" name="activityIndicator" candidateClass="UIActivityIndicatorView"/>
+                <relationship kind="outlet" name="loginButton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="userNameText" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="userPasswordText" candidateClass="UITextField"/>
+            </relationships>
+        </class>
+        <class className="confirmViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/confirmViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="doCancelButton:"/>
+                <relationship kind="action" name="doSendButton:"/>
+                <relationship kind="outlet" name="activityIndicator" candidateClass="UIActivityIndicatorView"/>
+                <relationship kind="outlet" name="confirmText" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="imageView" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="messageText" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="progressView" candidateClass="UIProgressView"/>
+                <relationship kind="outlet" name="sendButton" candidateClass="UIButton"/>
+            </relationships>
+        </class>
+        <class className="createViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/createViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="doAccountButton:"/>
+                <relationship kind="action" name="doCaptureButton:"/>
+                <relationship kind="action" name="doCoverText:"/>
+                <relationship kind="action" name="doEditDoneButton:"/>
+                <relationship kind="action" name="doPreviewButton:"/>
+                <relationship kind="outlet" name="accountButton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="captureButton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="contentView" candidateClass="UIView"/>
+                <relationship kind="outlet" name="coverImageView" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="coverText" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="nextButton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="popupTextEditor" candidateClass="UIView"/>
+                <relationship kind="outlet" name="popupTextView" candidateClass="UITextView"/>
+                <relationship kind="outlet" name="scrollView" candidateClass="UIScrollView"/>
+            </relationships>
+        </class>
+        <class className="homeViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/homeViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="doAccountButton:"/>
+                <relationship kind="action" name="doNextButton:"/>
+                <relationship kind="action" name="doSelectDesign:"/>
+                <relationship kind="outlet" name="accountButton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="nextButton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="pageControl" candidateClass="UIPageControl"/>
+                <relationship kind="outlet" name="pageControlContainer" candidateClass="UIView"/>
+                <relationship kind="outlet" name="pageOne" candidateClass="UIView"/>
+                <relationship kind="outlet" name="pageTwo" candidateClass="UIView"/>
+                <relationship kind="outlet" name="scrollView" candidateClass="UIScrollView"/>
+                <relationship kind="outlet" name="shadowView" candidateClass="UIView"/>
+            </relationships>
+        </class>
+        <class className="previewViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/previewViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="doAccountButton:"/>
+                <relationship kind="action" name="doConfirmButton:"/>
+                <relationship kind="action" name="doFlipAction:"/>
+                <relationship kind="outlet" name="accountButton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="animationView" candidateClass="UIView"/>
+                <relationship kind="outlet" name="imageView" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="imageViewBack" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="nextButton" candidateClass="UIButton"/>
+            </relationships>
+        </class>
+        <class className="restoreViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/restoreViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="doResetButton:"/>
+                <relationship kind="outlet" name="resetButton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="userEmailText" candidateClass="UITextField"/>
+            </relationships>
+        </class>
+        <class className="selectViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/selectViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="recipientNameText" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="recipientPhoneText" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="table" candidateClass="UITableView"/>
+            </relationships>
+        </class>
+        <class className="sendViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/sendViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="doConfirmButton:"/>
+                <relationship kind="outlet" name="recipientName" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="shareViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/shareViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="doAccountButton:"/>
+                <relationship kind="action" name="doHomeButton:"/>
+                <relationship kind="action" name="doOpenURLButton:"/>
+                <relationship kind="action" name="doSendEmailButton:"/>
+                <relationship kind="action" name="doSendSMSButton:"/>
+                <relationship kind="outlet" name="accountButton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="nextButton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="shareURLText" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="signupViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/signupViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="doSignupButton:"/>
+                <relationship kind="outlet" name="activityIndicator" candidateClass="UIActivityIndicatorView"/>
+                <relationship kind="outlet" name="bannerImage" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="bannerRuleImage" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="signupButton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="userEmailText" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="userNameText" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="userPassword2Text" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="userPasswordText" candidateClass="UITextField"/>
+            </relationships>
+        </class>
+        <class className="statusViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/statusViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="doLogoutButton:"/>
+                <relationship kind="action" name="doPurchaseButton:"/>
+                <relationship kind="outlet" name="activityIndicator" candidateClass="UIActivityIndicatorView"/>
+                <relationship kind="outlet" name="purchaseButton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="table" candidateClass="UITableView"/>
+                <relationship kind="outlet" name="vidsRemainingText" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="storeViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/storeViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="doBuy1Button:"/>
+                <relationship kind="action" name="doBuy4Button:"/>
+                <relationship kind="action" name="doBuy8Button:"/>
+                <relationship kind="action" name="doCancelButton:"/>
+                <relationship kind="outlet" name="activityIndicator" candidateClass="UIActivityIndicatorView"/>
+                <relationship kind="outlet" name="buy1Button" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="buy4Button" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="buy8Button" candidateClass="UIButton"/>
+            </relationships>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="HOw-3E-DzD"/>
-        <segue reference="vNV-ci-8th"/>
-        <segue reference="p9a-xK-v3c"/>
-        <segue reference="cti-RR-63j"/>
+        <segue reference="Zai-gk-vmn"/>
+        <segue reference="nc3-Ba-OrC"/>
         <segue reference="OXZ-YN-1JR"/>
+        <segue reference="cti-RR-63j"/>
     </inferredMetricsTieBreakers>
 </document>

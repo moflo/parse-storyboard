@@ -32,7 +32,7 @@
 #define GLOBAL_SERVER_NAME @"furious-winter-1870.heroku.com"    // Mobileflow server
 
 // Order of the images shown on the cover page, listed by name, no spaces allowed!
-#define DESIGN_ICON_NAME_ORDER @"icon1",@"icon2",@"icon3",@"icon4",@"icon5",@"icon6",@"icon7",@"icon8",@"icon9"
+#define DESIGN_ICON_NAME_ORDER @"frame1",@"frame2"
 
 #define DESIGN_THUMBNAIL_DESIGNSCREEN_PREFIX @".70"
 #define DESIGN_THUMBNAIL_CONFIRMSCREEN_PREFIX @".200"
