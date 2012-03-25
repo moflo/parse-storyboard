@@ -769,7 +769,6 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="doBuyButton:" destination="t90-89-Z0c" eventType="touchUpInside" id="Qzb-OD-FGo"/>
                                     <action selector="doSendSMSButton:" destination="PM7-xb-Nbw" eventType="touchUpInside" id="NdC-60-cvx"/>
                                 </connections>
                             </button>
@@ -785,7 +784,6 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="doBuyButton:" destination="t90-89-Z0c" eventType="touchUpInside" id="VEI-wh-a6u"/>
                                     <action selector="doSendEmailButton:" destination="PM7-xb-Nbw" eventType="touchUpInside" id="d2Q-kG-qv6"/>
                                 </connections>
                             </button>
@@ -973,7 +971,7 @@
                                 <rect key="frame" x="20" y="250" width="280" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" size="button"/>
-                                <state key="normal" title="Buy 1 Card @ $0.99?">
+                                <state key="normal" title="Buy 1 Pack @ $0.99?">
                                     <color key="titleColor" red="0.19607843137254902" green="0.30980392156862746" blue="0.52156862745098043" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -988,7 +986,7 @@
                                 <rect key="frame" x="19" y="180" width="280" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" size="button"/>
-                                <state key="normal" title="Buy 4 Card @ $2.99?">
+                                <state key="normal" title="Buy 4 Pack @ $2.99?">
                                     <color key="titleColor" red="0.19607843137254902" green="0.30980392156862746" blue="0.52156862745098043" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -1003,7 +1001,7 @@
                                 <rect key="frame" x="19" y="110" width="280" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" size="button"/>
-                                <state key="normal" title="Buy 8 Card @ $4.99?">
+                                <state key="normal" title="Buy 8 Pack @ $4.99?">
                                     <color key="titleColor" red="0.19607843137254902" green="0.30980392156862746" blue="0.52156862745098043" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>

@@ -30,7 +30,7 @@ Versions
 * 1.0 -- initial commit with basic account creation, video upload, store kit integration
 * 1.1 -- minor update to the readme, adding a simple home on GitHub to demo the backend
 * 1.2 -- [FIX] video upload bug due to nil image, account status segue bug
-
+* 1.3 -- [FIX] cleaned up storyboard NIB for "storeView", still crashes on a purchase attempt but this is outside the scope of the demo
 
 
 To-Do
